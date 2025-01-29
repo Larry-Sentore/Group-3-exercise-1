@@ -32,4 +32,4 @@ done
 # Push the script to GitHub (assuming the repo is already initialized and configured)
 git add the_coder.sh
 git commit -m "Updated script to check directory and create cohort files"
-git push origin main
+git push origin master
