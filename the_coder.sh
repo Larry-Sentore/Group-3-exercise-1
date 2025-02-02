@@ -3,7 +3,7 @@ mkdir students_directory
 touch students_directory/cohort-1.txt
 touch students_directory/cohort-2.txt
 touch students_directory/cohort-3.txt
-
+echo "This is the updated script!"
 # Define the students directory and cohort names
 students_directory="students_directory"
 cohorts=("Cohort_1" "Cohort_2" "Cohort_3" "Cohort_4")
@@ -33,4 +33,4 @@ done
 git add the_coder.sh
 git commit -m "Updated script to check directory and create cohort files"
 git push origin master
-hi
+
